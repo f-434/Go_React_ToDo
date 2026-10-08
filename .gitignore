@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.exe
+*.db
+todos.db
+.env
+.vscode/
+.idea/
