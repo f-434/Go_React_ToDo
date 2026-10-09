@@ -34,6 +34,8 @@ func main() {
 
 	r.PUT("/todos/:id", handlers.UpdateStatus)
 
+	r.DELETE("/todos/:id", handlers.DelTodo)
+
 	r.Run(":8080")
 
 }
